@@ -192,6 +192,9 @@ export function addATime(currentTimestamp){
         if (global.settings.at > 11520){
             global.settings.at = 11520;
         }
+// TODO trying to set accelerated time all the tiiiiime baby
+	global.settings.at = 11520
+	    
         atrack.t = global.settings.at;
         // Updating the current date so that it won't be counted twice (e.g., when unpausing).
         global.stats.current = currentTimestamp;
